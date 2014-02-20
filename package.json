@@ -1,25 +1,15 @@
 {
-  "name": "position",
+  "name": "jkroso-position",
+  "description": "Utlities for working with positioned DOM elements",
   "version": "0.1.1",
-  "description": "DOM element position utilities",
-  "main": "src/index.js",
-  "dependencies": {
-    "computed-style": "jkroso/computed-style"
-  },
-  "devDependencies": {
-    "serve": "jkroso/serve#1.5.1",
-    "css": "component/css",
-    "mocha": "*",
-    "chai": "*"
-  },
-  "repository": "git://github.com/jkroso/position.git",
-  "bugs": "https://github.com/jkroso/position/issues",
   "keywords": [
     "DOM",
     "position",
     "css",
     "offset"
   ],
-  "author": "Jakeb Rosoman",
+  "dependencies": {
+    "jkroso-computed-style": "git://github.com/npmcomponent/jkroso-computed-style.git"
+  },
   "license": "MIT"
 }

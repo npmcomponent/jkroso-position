@@ -1,4 +1,4 @@
-var style = require('computed-style')
+var style = require('jkroso-computed-style')
 
 exports = module.exports = position
 exports.container = containerBox
